@@ -96,8 +96,8 @@ you can do:
     "]]" 'outline-next-visible-heading
     (kbd "C-k") 'outline-backward-same-level
     (kbd "C-j") 'outline-forward-same-level
-    "gk" 'outline-backward-same-level
-    "gj" 'outline-forward-same-level
+    ;;"gk" 'outline-backward-same-level
+    ;;"gj" 'outline-forward-same-level
 
     (kbd "M-h") 'outline-promote ; Org-mode has "M-<left>", Evil-org has "M-h"
     (kbd "M-j") 'outline-move-subtree-down ; Org-mode has "M-<down>", Evil-org has "M-j"
